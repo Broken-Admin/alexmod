@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "alexmod:block/example_block"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "itemGroup.alexmod": "Alex's Mod",
+  "itemGroup.alexmod_main": "Alex's Mod Main",
+
+  "item.alexmod.test_item": "Test Item",
+
+  "block.alexmod.rocky_dirt": "Rocky Dirt",
+  "block.alexmod.example_block": "Alex's Example Block"
+}
