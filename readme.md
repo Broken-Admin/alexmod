@@ -12,3 +12,11 @@ This is a first-attempt of mod development by someone who is both unfamiliar wit
 * 2 blocks
     * Example Block: Mineable with an iron pickaxe and higher
     * Rocky Dirt: Mineable by hand or shovel, sometime drops an item
+
+# Images
+* Example Block
+<img src="https://raw.githubusercontent.com/Broken-Admin/alexmod/master/screenshots/example_block.png" style="height:auto;width:600">
+* Rocky Dirt
+<img src="https://raw.githubusercontent.com/Broken-Admin/alexmod/master/screenshots/rocky_dirt.png" style="height:auto;width:600">
+* Items (Example Item and Opal)
+<img src="https://raw.githubusercontent.com/Broken-Admin/alexmod/master/screenshots/items.png" style="height:auto;width:600">
