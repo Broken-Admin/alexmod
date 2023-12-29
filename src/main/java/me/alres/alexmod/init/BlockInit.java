@@ -28,7 +28,7 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "alexmod");
     // Initialize the blocks to the registry
     public static final RegistryObject<Block> ROCKY_DIRT = BLOCKS.register("rocky_dirt", () -> {
-        return new Block(Properties.of(Material.DIRT, MaterialColor.DIRT).strength(6.0F).sound(SoundType.GRAVEL));
+        return new Block(Properties.of(Material.DIRT, MaterialColor.DIRT).strength(0.5F).sound(SoundType.GRAVEL));
     });
     public static final RegistryObject<Block>EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> {
         return new Block(Properties.copy(Blocks.STONE).requiresCorrectToolForDrops());
