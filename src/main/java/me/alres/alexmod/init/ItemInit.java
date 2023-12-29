@@ -13,7 +13,11 @@ public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "alexmod");
     // Create an item
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> {
-        return new Item((new Item.Properties()).tab(ItemInit.AlexModTab.instance));
+        return new Item(new Item.Properties().tab(ItemInit.AlexModTab.instance));
+    });
+
+    public static final RegistryObject<Item> OPAL = ITEMS.register("opal", () -> {
+        return new Item(new Item.Properties().tab(ItemInit.AlexModTab.instance));
     });
 
 
@@ -28,9 +32,6 @@ public class ItemInit {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack((ItemLike)ItemInit.TEST_ITEM.get());
-        }
-
-        static {
         }
     }
 }
